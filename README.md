@@ -1,2 +1,0 @@
-# Technohack
-Hospital Assistant

@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Map Assistant</title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <style>
+    .navbar-brand{
+        font-weight: bold;
+        font-size: 40px;
+    }
+  </style>
+  </head>
+  <body>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Hospital <span style="color: cadetblue;">Assistant</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav" styl>
+              <li class="nav-item">
+                    <a class="nav-link" href="#fi">Find Path</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#abo">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#feat">Features</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div class="home" style="margin-top: 86px;">
+        <div class="key" style="background-color: black;  ;">
+            <br>
+            <h2 style="color: cadetblue; padding-left: 25px;">Key Places</h2>
+            <br>
+            <ul style=" margin-left: 10px;">
+                <li>Reception 1</li>
+                <li>Reception 2</li>
+                <li>Entrance</li>
+                <li>Casualty</li>
+                <li>Pharmacy</li>
+                <li>Ortho OP</li>
+                <li>ENT OP</li>
+                <li>Canteen</li>
+                <li>X-Ray Room</li>
+                <li>Exit</li>
+
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="form1" id="fi">
+      <div class="key" style="background-color: #000000;
+        padding: 35px;">
+          <br>
+          <h3 style="font-size: 18px;
+          line-height: 24px; font-family: sans-serif; color:cadetblue; font-size: 30px; font-weight: bold; "> Find your path</h3>
+          <br>
+        
+          <form id="current-trade" autocomplete="off">
+            <div class="form-group">
+              <label for="from"><span class="f1">From</span></label>
+              <select class="custom-select form-control" name="from" id="from">
+                <option value>-From-</option>
+                <option value="1">Reception 1</option>
+
+              </select>
+
+            </div>
+            <br>
+            <br>
+          
+
+            <div class="form-group">
+              <label for="from"><span class="f1">To</span></label>
+              <select class="custom-select form-control" name="from" id="from">
+                <option value>-To-</option>
+                <option value="2">Reception 2</option>
+                <option value="3">Entrance</option>
+                <option value="4">Casualty</option>
+                <option value="5">Pharmacy</option>
+                <option value="6">Bill Counter</option>
+                <option value="7">Ortho OP</option>
+
+                <option value="8">ENT OP</option>
+                <option value="9">Canteen</option>
+
+                <option value="10">Lift</option>
+                <option value="11">X-Ray Room</option>
+                <option value="12">Exit</option>
+              </select>
+                
+            </div>
+            <br>
+            <br>
+            <button type="submit" class="btn btn-primary btn-block" ">Find</button>
+           
+          </form>
+           
+        </div>
+  </div>
+  
+  <div class="about" id="abo">
+    <hr style="border-style: none;
+  border-top-style: dotted;
+  border-color: black;
+  color: black;
+  background-color: cadetblue;
+  border-width: 5px;
+  width: 10%; margin: revert;">
+
+      <br>
+      <br>
+
+      <h1 style="padding: 20px;
+        font-size: 38px;
+        font-weight: bold;
+        color: black; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center;">About</h1>
+        <h2 style="padding-left: 20px; color: #000000;">Indoor<span style="color: darkslategray;">AR</span></h2>
+        <h6 style="padding-left: 22px;">Make navigation within your facility way easier.</h6>
+        <br>
+        <h6 style="padding-left: 22px;">Upgrade your physical location with the worlds most advanced indoor navigation system. Display digital routes and additional content (text, videos, 3D objects, etc.) on your user’s device anytime during navigation. Help your workforce to either find the shortest way to their destination or setup predefined routes for onboarding and training.</h6>
+      
+
+  </div>
+  
+
+  <div class="feature" id="feat">
+
+    <hr style="border-style: none;
+  border-top-style: dotted;
+  border-color: black;
+  color: black;
+  background-color: cadetblue;
+  border-width: 5px;
+  width: 10%; margin: revert;">
+
+      <br>
+      <br>
+    <h1 style="padding: 20px;
+    font-size: 38px;
+    font-weight: bold;
+    color: black; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center;">Features</h1>
+    <br>
+    <h6 style="padding-left: 22px; color: #000000;">Prepared for all eventualities.</h6>
+    <br>
+    <h6 style="padding-left: 22px; color: black;">Indoor navigation</h6>
+    <h6 style="padding-left: 35px; color: #000000;">Help your workforce to find the fastest way to any area in your facility.</h6>
+    <br>
+    <h6 style="padding-left: 22px; color: black;">Location based content</h6>
+    <h6 style="padding-left: 35px; color: #000000;">Visualize digital content in your facility to improve the efficiency of your workforce.</h6>
+    <br>
+    <h6 style="padding-left: 22px; color: black;">Digital avatar</h6>
+    <h6 style="padding-left: 35px; color: #000000;">Increase the engagement with a 3D character leading your workforce around your facility.</h6>
+  </div>
+  
+  <div class="f1">
+    <br>
+    <br>
+    <p style="color: #ffff; text-align: center;">Copyright © Hospital Assistant |All Rights Reserved</p>
+  </div>
+  </body>
+</html>

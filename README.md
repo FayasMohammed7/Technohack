@@ -40,15 +40,13 @@
   <li>Visualize digital content in the hospital to improve the navigation process.</li>
   <li>Increase the engagement with a 3D character leading the patients and outsiders to locate thier destination easier.</li>
 </ul>
-<!--
-<h3></h3>
+
+<h3>Further developments</h3>
 <ul>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>voice assistance</li>
+  <li>IOT</li>
+ 
 </ul>
--->
+
   
   
